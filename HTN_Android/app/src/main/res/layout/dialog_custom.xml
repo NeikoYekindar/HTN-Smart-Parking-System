@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/dialog_background"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Author: "
+            android:textSize="18sp"
+            android:textAppearance="@style/TitleStyle"
+
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingBottom="5dp" />
+        <TextView
+            android:id="@+id/dialog_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/regularText"
+
+            android:text="Name"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:paddingBottom="5dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: "
+            android:textAppearance="@style/TitleStyle"
+
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingBottom="5dp" />
+        <TextView
+            android:id="@+id/dialog_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lamthienphat@gmail.com"
+            android:textAppearance="@style/regularText"
+
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:paddingBottom="5dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parking: "
+            android:textAppearance="@style/TitleStyle"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingBottom="5dp" />
+        <TextView
+            android:id="@+id/dialog_parking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P1"
+            android:textSize="16sp"
+            android:textAppearance="@style/regularText"
+
+            android:textStyle="normal"
+            android:paddingBottom="5dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date: "
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"
+            android:textAppearance="@style/TitleStyle"
+            />
+        <TextView
+            android:id="@+id/dialog_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2024-12-09"
+            android:textSize="16sp"
+            android:textAppearance="@style/regularText"
+
+            android:textStyle="normal"
+            android:paddingBottom="5dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details: "
+            android:textAppearance="@style/TitleStyle"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingBottom="5dp" />
+        <TextView
+            android:id="@+id/dialog_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You details"
+            android:textAppearance="@style/regularText"
+
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:paddingBottom="5dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <Button
+            android:id="@+id/accept"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/blue_button"
+            android:text="ACCEPT"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/reject"
+            android:layout_marginStart="20dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/white_button"
+            android:text="REJECT"
+            android:textColor="#11ABD1"/>
+    </LinearLayout>
+
+
+</LinearLayout>

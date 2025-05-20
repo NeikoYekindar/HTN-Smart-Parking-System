@@ -1,0 +1,16 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap
+            android:src="@drawable/bg"
+            android:gravity="fill" />
+    </item>
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#6283E8FE"
+            android:endColor="#61259AB7"
+            android:angle="90" />
+            <corners android:radius="0dp" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.SignIn"
+    android:background="@drawable/background_layer"
+    >
+    <ImageButton
+        android:id="@+id/sign_in_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:background="@drawable/round_btn"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="47dp"
+        android:layout_marginStart="24dp"
+        />
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="443dp"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="30dp"
+    android:layout_centerVertical="true"
+    android:background="#B3FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/transparent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="WELCOME BACK"
+            android:textAlignment="center"
+            android:textAppearance="@style/ButtonText"
+            android:textColor="@color/maincolor"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/ID"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/white_button"
+            android:hint="ID"
+            android:textColorHint="#949494"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="27dp"
+            android:textAppearance="@style/ButtonText"
+            android:textColor="#212121"
+            android:layout_marginEnd="27dp"
+            android:padding="15dp"
+            android:textSize="15sp" />
+        <Button
+            android:id="@+id/signin"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="92dp"
+            android:background="@drawable/blue_button"
+            android:text="SIGN IN"
+            android:layout_marginStart="42dp"
+            android:layout_marginEnd="42dp"
+            android:textAppearance="@style/ButtonText"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+</RelativeLayout>

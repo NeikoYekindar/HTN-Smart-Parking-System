@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card_lightstroke">
+        <TextView
+            android:id="@+id/rp_parking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P1"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_alignParentTop="true"
+            android:textAppearance="@style/TitleStyle"
+            android:textSize="20sp"
+            android:textColor="@color/maincolor"/>
+        <TextView
+            android:id="@+id/rp_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="author"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/rp_parking"
+            android:textAppearance="@style/regularText"
+            android:textSize="14sp"
+            android:textColor="#737373"/>
+        <TextView
+            android:id="@+id/rp_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rp_author"
+            android:text="day/month/year"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:textAppearance="@style/TitleStyle"
+            android:textColor="#212121"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+</RelativeLayout>

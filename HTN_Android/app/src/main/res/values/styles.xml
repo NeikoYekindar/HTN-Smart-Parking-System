@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TitleStyle">
+        <item name="android:fontFamily">@font/montserrat_extrabold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="ButtonText">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+    <style name="regularText">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+</resources>

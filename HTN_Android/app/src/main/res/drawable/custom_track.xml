@@ -1,0 +1,19 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Track khi bật (ON) -->
+    <item android:state_checked="true">
+        <shape>
+            <size android:height="22dp" android:width="46dp"/>
+            <solid android:color="@color/maincolor" />
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+
+    <!-- Track khi tắt (OFF) -->
+    <item android:state_checked="false">
+        <shape>
+            <size android:height="22dp" android:width="46dp"/>
+            <solid android:color="#DBDDDF" />
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+</selector>

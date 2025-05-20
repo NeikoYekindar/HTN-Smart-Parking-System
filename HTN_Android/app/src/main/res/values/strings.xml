@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Parking_app</string>
+    <string-array name="parking_list">
+        <item>P1</item>
+        <item>P2</item>
+        <item>P3</item>
+        <item>P4</item>
+    </string-array>
+</resources>
